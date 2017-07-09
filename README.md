@@ -49,9 +49,21 @@ Please raise any issues, questions or comments as a [new issue in this repositor
 | offer[].beta:groupTicket.beta:maxPeople | 5 | Maximum people required for group booking. |
 | offer[].beta:groupTicket.beta:course | true | Is the ticket/booking a course booking. |
 
+## Event Type Data Fields
+
+| Data Field | Example Value | Description |
+| ---------- | ------------- | ----------- |
+| superEvent.identifier | entry-43434 | Entry id of event booking belongs to |
+| identifier | bookedOccurrence-73 | identifier of the booking |
+| startDate | 2017-07-25T19:00:00Z | Start date of booking |
+| endDate | 2017-07-25T20:00:00Z | End date of booking |
+| remainingAttendeeCapacity | 4 | Number of spaces remaining |
+| beta:attendanceCount | 3 | Number of spaces taken |
+
 ## Changelog
 
 | Date | Changes |
 |---|---|
+| 9/7/2017 | Added Event Data Fields |
 | 9/7/2017 | Added Event Type Data Fields |
 | 5/7/2017 | Initial version published |
