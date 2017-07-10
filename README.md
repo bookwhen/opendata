@@ -2,6 +2,7 @@
 
 ## Open Data Endpoint
 https://bookwhen.com/api/openactive/event_types - a feed of the event types from participating bookwhen customers, including recurrence rules
+
 https://bookwhen.com/api/openactive/events - a feed of availability for individual events
 
 ## Standards
